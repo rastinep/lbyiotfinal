@@ -1,0 +1,40 @@
+{% extends 'gisystem/home.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container row" id="overview">
+    <div class="col-3" id="upper">
+        <div class="row upper">
+            <div class="upper-link col-3">
+                <img style="height: 30px; width: 30px;" src="{% static '/gisystem/css/img/capacity.png'%}">
+            </div>
+            <div class="upper-link col-9" id="content">
+                <span>Capacity</span>
+                <h2>35.33%</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-3" id="upper">
+        <div class="row upper">
+            <div class="upper-link col-3">
+                <img style="height: 30px; width: 30px;" src="{% static '/gisystem/css/img/status.png'%}">
+            </div>
+            <div class="upper-link col-9" id="content">
+                <span>Status</span>
+                <h2>35.33%</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-3" id="upper">
+        <div class="row upper">
+            <div class="upper-link col-3">
+                <img style="height: 30px; width: 30px;" src="{% static '/gisystem/css/img/Texture.png'%}">
+            </div>
+            <div class="upper-link col-9" id="content">
+                <span>Texture</span>
+                <h2>35.33%</h2>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

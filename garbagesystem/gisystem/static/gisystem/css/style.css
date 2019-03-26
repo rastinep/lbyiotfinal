@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.dashboard {
+    font-family: Roboto;
+
+}
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: #15141A;
+    color: #F8CF2C;
+    text-align: center;
+    margin: 0;
+    padding: 10px 30px;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url('img/side-bg.jpg');
+    background-size: cover;
+    background-position: 50%;
+}
+
+.sidebar h2 a{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: #F8CF2C;
+}
+
+.sidebar a {
+    padding: 5px 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+.sidebar a:hover {
+    background-color: #F8CF2C;
+    border-radius: 3px;
+    color: #15141A;
+}
+
+.sidebar a i {
+    padding-right: 30px;
+}
+
+.content {
+    margin-left: 20%;
+
+}
+
+.content .nav {
+    padding: 30px 20px 20px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .nav img {
+    margin: 20px 15px;
+}
+
+.content .nav. .map {
+    display: flex;
+    justify-content: center;
+}
+
+.content .nav .navbar .nav-contents a{
+    padding: 10px 15px;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: #15141A;
+    background-color: #F8CF2C;
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+    border-radius: 3px;
+}
+
+.content .nav .navbar .nav-contents a:hover{
+    color: white;
+}
+
+#about {
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project_details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: 500px;
+    margin: 0px 15px 0px 15px;
+}
+
+#description {
+    padding: 50px;
+    background-color: #F8CF2C;
+    text-align: center;
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#categories {
+    margin: 50px 20px;
+    padding: 30px 40px;
+}
+
+#categories .category-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+}
+
+#categories .category-link:hover {
+    border-radius: 50px;
+    background-color: #F8CF2C;
+}
+
+#overview {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#upper {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: #F8CF2C;
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+.upper-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content{
+    border-left: 3px solid #15141A;
+}
+
+#hall {
+    margin-top: 30px;
+}
+
+#hall h2 {
+    padding: 20px 0px;
+    font-weight: bold;
+    color: #F8CF2C;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+#floors {
+    background-color: #15141A;
+    color: white;
+    padding: 5px 30px;
+}
+
+.dropdown-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu li{
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.dropdown-menu li:hover{
+    background-color: #15141A;
+    color: white;
+}
+
+.dropdown-menu li a{
+    color: #F8CF2C;
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: center;
+    background-color: #F8CF2C;
+    border-radius: 8px;
+    padding: 20px 10px;
+}
+
+.dropdown-content #image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-content h3{
+    text-align: center;
+}
+
+.dropdown-content #data{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+#contact {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.contact-link {
+    margin: 25px;
+    text-align: center;
+    width: 25%;
+    border-radius: 6px;
+    color: white;
+    padding: 15px 20px;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+}
+
+.contact-link h2 {
+    padding: 10px 20px;
+}
+
+.contact-link span {
+    padding: 20px 40px;
+}
+

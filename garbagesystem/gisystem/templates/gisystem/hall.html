@@ -1,0 +1,27 @@
+{% extends 'gisystem/home.html'%}
+{% load static %}
+
+{% block content %}
+<div class="container" id="hall">
+    <h2>Henry Sy Hall</h2>
+    <div class="dropdown">
+      <button class="btn dropdown-toggle" id="floors" type="button" data-toggle="dropdown">Select Floor
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        <li><a href="#">First Floor</a></li>
+        <li><a href="#">Second Floor</a></li>
+        <li><a href="#">Third Floor</a></li>
+      </ul>
+    </div>
+    <div class="container dropdown-content">
+      <div id="image"><img src="{% static '/gisystem/css/img/garbage.png'%}"></div>
+      <h3>Garbage 1</h2>
+      <div id="data">
+        <span>Capacity</span>
+        <span>Moisture</span>
+        <span>Lid Status</span>
+      </div>
+    </div>
+</div>
+{% endblock %}
+
