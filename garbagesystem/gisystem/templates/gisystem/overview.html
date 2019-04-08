@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block content %}
-<div class="container row" id="overview">
+<div class="container" id="overview">
     <div class="col-3" id="upper">
         <div class="row upper">
             <div class="upper-link col-3">
@@ -35,6 +35,15 @@
                 <h2>35.33%</h2>
             </div>
         </div>
+    </div>
+</div>
+<div class="container" style="width: 72%; height: 300px; background-color: black; align-self: center; border-radius: 10px; box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);" id="connect">
+    <div class="container" style="padding-top: 20px; color: white; display: flex; flex-direction: column;">
+        <div>
+            <h4>MQTT Connection</h4>
+        </div>
+        <span>Connecting...</span>
+        <span>Connected Successfully!</span>
     </div>
 </div>
 {% endblock %}
